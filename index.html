@@ -1,32 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AsaadStore</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AsaadStore - Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to AsaadStore</h1>
-        <p>Your digital shopping destination</p>
-    </header>
-    <main>
-        <section class="products">
-            <article class="product">
-                <h2>Product 1</h2>
-                <p>Description of product 1.</p>
-                <button>Buy Now</button>
-            </article>
-            <article class="product">
-                <h2>Product 2</h2>
-                <p>Description of product 2.</p>
-                <button>Buy Now</button>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 AsaadStore. All rights reserved.</p>
-    </footer>
+
+  <!-- شريط أعلى -->
+  <header class="topbar">
+    <div>🇸🇦 العربية | 💼 تسجيل الدخول | ❤️ المفضلة | 🛒 السلة</div>
+  </header>
+
+  <!-- الشعار والبحث -->
+  <div class="header-main">
+    <div class="logo">AsaadStore</div>
+    <input type="text" placeholder="ابحث عن المنتجات..." class="search-box"/>
+    <div class="quick-links">
+      <span>📞 الدعم</span>
+      <span>📦 طلباتي</span>
+    </div>
+  </div>
+
+  <!-- شريط التصنيفات + سلايدر -->
+  <div class="main-area">
+    <nav class="sidebar">
+      <ul>
+        <li>📱 إلكترونيات</li>
+        <li>👕 ملابس</li>
+        <li>🏠 المنزل</li>
+        <li>🧴 مستحضرات</li>
+        <li>🚗 سيارات</li>
+      </ul>
+    </nav>
+    <section class="slider">
+      <img src="images/slider1.jpg" alt="عروض مميزة">
+    </section>
+  </div>
+
+  <!-- المنتجات -->
+  <section class="products">
+    <h2>منتجات مميزة</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/product1.jpg" alt="منتج 1"/>
+        <h3>سماعات بلوتوث</h3>
+        <p>السعر: 50 ريال</p>
+      </div>
+      <div class="product">
+        <img src="images/product2.jpg" alt="منتج 2"/>
+        <h3>ساعة ذكية</h3>
+        <p>السعر: 120 ريال</p>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
